@@ -197,19 +197,19 @@ header {
 
 .cart-quantity {
     display: flex;
-    width: 100px;
+    width: 90px;
     border: 1px solid #999;
     border-radius: 6px;
 }
 
-.cart-quantity button {
+.cart-quantity .quantity {
     background: transparent;
     width: 20px;
     border: none;
     font-size: 20px;
     cursor: pointer;
 }
-.cart-quantity button:hover {
+.cart-quantity .quantity:hover {
     color: #e35f26;
     transform: scale(1.1);
 }
@@ -218,9 +218,9 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 70px;
-    border-left: 1px solid #999;
-    border-right: 1px solid #999;
+    width: 50px;
+    /* border-left: 1px solid #999;
+    border-right: 1px solid #999; */
     cursor: default;
 }
 
