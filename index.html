@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet"/>
+    <title>Jamie Music Mart!</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo"><b>Jamie Music Mart!</b></a>
+        <div class="cart-icon">
+            <i class="ri-shopping-cart-2-fill shopping-cart"></i>
+            <span class="cart-item-count"></span>
+        </div>
+    </header>
+    <div class="cart">
+        <h2 class="cart-title">Your Cart</h2>
+        <div class="cart-content">
+            <div class="cart-box">
+                <img src="./images/prod1.png" alt="">
+                <div class="cart-details">
+                    <h2 class="cart-product-title">Music</h2>
+                    <span class="cart-price">$345</span>
+                    <div class="cart-quantity">
+                        <button id="decrement">-</button>
+                        <span class="number">Number</span>
+                        <button id="increment">+</button>
+                    </div>
+                </div>
+                <i class="ri-delete-bin-line cart-remove"></i>
+            </div>
+        </div>
+        <div class="total">
+            <div class="total-title">Total</div>
+            <div class="total-price">$0</div>
+            <button class="btn-buy">Buy Now</button>
+            <i class="ri-close-circle-line" id="cart-close"></i>
+        </div>
+    </div>
+
+
+    <section class="shop">
+        <h1 class="section-title">Products</h1>
+        <div class="product-content">
+            
+        </div>
+    </section>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
